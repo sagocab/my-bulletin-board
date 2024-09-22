@@ -1,0 +1,22 @@
+{
+  "posts": [
+    {
+      "id": "23e3",
+      "title": "test",
+      "content": "testffffff",
+      "createdAt": "2024-09-21T01:48:01.337Z"
+    },
+    {
+      "id": "35d7",
+      "title": "ㅎㅎㅎㅎㅎ",
+      "content": "ㅎㅎㅎㅎㅎ",
+      "createdAt": "2024-09-21T03:55:54.690Z"
+    },
+    {
+      "id": "4b43",
+      "title": "ㅗㅗㅗㅗㅗㅗ",
+      "content": "ㅗㅗㅗㅗㅗㅗㅗaaaaa",
+      "createdAt": "2024-09-21T03:56:06.240Z"
+    }
+  ]
+}
