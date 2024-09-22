@@ -24,13 +24,14 @@ const EditPost: React.FC = () => {
     }
   }, [post])
 
-  const mutation = useMutation<Post, Error, Partial<Omit<Post, 'id' | 'createdAt'>>>({
-    mutationFn: (post) => updatePost(postId, post),
-    onSuccess: () => {
-      queryClient.invalidateQueries({ queryKey: ['posts'] });
-      navigate('/');
-    },
-  });
+const mutation = useMutation<Post, Error, Partial<Omit<Post, 'id' | 'createdAt'>>>({
+  mutationFn: (post) => updatePost(postId, post),
+  onSuccess: () => {
+    queryClient.invalidateQueries({ queryKey: ['posts'] });
+    navigate('/');
+  },
+});
+
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
